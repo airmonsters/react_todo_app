@@ -1,0 +1,42 @@
+.list{
+    color: #ffffff;
+    width: 300px;
+    background-color: #bf07ac;
+    margin: 20px auto;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.list p{
+    padding: 10px;
+    position: relative;
+    font-size: 30px;
+    white-space: normal;
+    word-break: break-word;
+    
+}
+
+
+.list p .done{
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 25px;
+}
+
+.list p .delete{
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+    margin: 0 5px;
+    font-size: 25px;
+}
+
+.list-line{
+    text-decoration:line-through; 
+}
+
